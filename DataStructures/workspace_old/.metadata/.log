@@ -1,0 +1,1336 @@
+!SESSION 2019-04-01 16:27:32.376 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-01 16:27:55.957
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-01 16:27:55.989
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-01 16:28:23.532
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:456)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4102)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-04-01 16:48:21.605
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-01 20:26:05.237 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-01 20:26:11.142
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-01 20:26:11.179
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-02 15:29:11.697
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-02 15:29:14.937 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-02 15:29:18.481
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-02 15:29:18.543
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-02 21:25:20.280
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-04-02 21:25:21.430
+!MESSAGE An internal error occurred during: "org.eclipse.eclemma.internal.core.launching.AgentServer".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.eclemma.internal.ui.UIPreferences.getPreferenceStore(UIPreferences.java:114)
+	at org.eclipse.eclemma.internal.ui.UIPreferences.access$0(UIPreferences.java:113)
+	at org.eclipse.eclemma.internal.ui.UIPreferences$1.getActivateNewSessions(UIPreferences.java:56)
+	at org.eclipse.eclemma.internal.core.launching.AgentServer.run(AgentServer.java:123)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2019-04-02 21:28:20.474 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-02 21:28:23.912
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-02 21:28:23.978
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 10001 2019-04-03 11:28:13.005
+!MESSAGE 
+!STACK 1
+Java Model Exception: Java Model Status [main1(String[]) [in MyFirstHomeworkFor300 [in [Working copy] MyFirstHomeworkFor300.java [in algs11 [in src [in algs4]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:607)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceMethod.getParameters(SourceMethod.java:153)
+	at org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore.appendMethodLabel(JavaElementLabelComposerCore.java:345)
+	at org.eclipse.jdt.internal.core.manipulation.JavaElementLabelComposerCore.appendElementLabel(JavaElementLabelComposerCore.java:171)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks.getElementLabel(JavaElementLinks.java:709)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks.getElementLabel(JavaElementLinks.java:691)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getInfoText(JavadocHover.java:818)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:755)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-04-03 11:28:13.007
+!MESSAGE main1(String[]) [in MyFirstHomeworkFor300 [in [Working copy] MyFirstHomeworkFor300.java [in algs11 [in src [in algs4]]]]] does not exist
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2019-04-03 11:28:13.011
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [main1(String[]) [in MyFirstHomeworkFor300 [in [Working copy] MyFirstHomeworkFor300.java [in algs11 [in src [in algs4]]]]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:573)
+	at org.eclipse.jdt.internal.core.JavaElement.openWhenClosed(JavaElement.java:607)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:326)
+	at org.eclipse.jdt.internal.core.JavaElement.getElementInfo(JavaElement.java:312)
+	at org.eclipse.jdt.internal.core.SourceRefElement.getSourceRange(SourceRefElement.java:233)
+	at org.eclipse.jdt.internal.core.Member.getJavadocRange(Member.java:301)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContentFromSource(JavadocContentAccess2.java:664)
+	at org.eclipse.jdt.internal.ui.text.javadoc.JavadocContentAccess2.getHTMLContent(JavadocContentAccess2.java:540)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo(JavadocHover.java:760)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.internalGetHoverInfo(JavadocHover.java:678)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavadocHover.getHoverInfo2(JavadocHover.java:670)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:167)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2019-04-03 11:28:13.012
+!MESSAGE main1(String[]) [in MyFirstHomeworkFor300 [in [Working copy] MyFirstHomeworkFor300.java [in algs11 [in src [in algs4]]]]] does not exist
+
+!ENTRY org.eclipse.ui 4 0 2019-04-05 19:59:42.972
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-05 19:59:47.624 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-05 19:59:51.067
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-05 19:59:51.143
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-05 20:38:04.139 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-05 20:38:07.595
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-05 20:38:07.661
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-08 09:41:18.395 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 09:41:22.507
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-08 09:41:22.552
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-09 19:29:53.076 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-09 19:29:57.138
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-09 19:29:57.177
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-10 19:04:50.896
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-10 19:04:50.896
+!MESSAGE A conflict occurred for COMMAND+W:
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.cocoa.closeDialog,Close Dialog,
+		Closes the active Dialog,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3df419e9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@321d6131,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2019-04-15 16:13:34.878 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-15 16:13:38.945
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-15 16:13:38.984
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-15 17:41:31.510
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-15 17:41:34.848 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-15 17:41:38.511
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-15 17:41:38.546
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-15 18:11:12.076
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-15 19:00:16.233 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-15 19:00:20.187
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-15 19:00:20.232
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-15 19:03:32.864 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-15 19:03:36.329
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-15 19:03:36.370
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-16 14:00:08.557 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-16 14:00:12.597
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-16 14:00:12.633
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-17 09:55:36.645 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-17 09:55:40.731
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-17 09:55:40.773
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-17 11:26:45.479
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-17 11:26:49.183 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-17 11:26:52.754
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-17 11:26:52.791
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-19 16:53:12.980 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/abelmarin/Documents/DataStructures/workspace/ -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-19 16:53:18.575
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-19 16:53:18.609
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-19 17:28:03.204 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-19 17:28:06.733
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-19 17:28:06.782
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-20 16:17:20.456
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3764)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-04-22 09:58:57.055 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-22 09:59:01.364
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-22 09:59:01.400
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-22 16:07:38.031 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-22 16:07:41.699
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-22 16:07:41.741
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.ui 4 0 2019-04-22 21:34:35.348
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Control.setFocus(Control.java:3870)
+	at org.eclipse.jdt.internal.ui.text.java.hover.AbstractAnnotationHover$AnnotationInformationControl.setFocus(AbstractAnnotationHover.java:214)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformationControl(AbstractInformationControlManager.java:1246)
+	at org.eclipse.jface.internal.text.StickyHoverManager.showInformationControl(StickyHoverManager.java:262)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.showInformationControl(InformationControlReplacer.java:164)
+	at org.eclipse.jface.text.AbstractInformationControlManager.internalShowInformationControl(AbstractInformationControlManager.java:1134)
+	at org.eclipse.jface.text.AbstractInformationControlManager.presentInformation(AbstractInformationControlManager.java:1120)
+	at org.eclipse.jface.text.AbstractInformationControlManager.setInformation(AbstractInformationControlManager.java:431)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.computeInformation(InformationControlReplacer.java:116)
+	at org.eclipse.jface.text.AbstractInformationControlManager.doShowInformation(AbstractInformationControlManager.java:1101)
+	at org.eclipse.jface.text.AbstractInformationControlManager.showInformation(AbstractInformationControlManager.java:1091)
+	at org.eclipse.jface.internal.text.InformationControlReplacer.replaceInformationControl(InformationControlReplacer.java:103)
+	at org.eclipse.jface.text.AbstractInformationControlManager.replaceInformationControl(AbstractInformationControlManager.java:1268)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager.replaceInformationControl(AbstractHoverInformationControlManager.java:794)
+	at org.eclipse.jface.text.TextViewerHoverManager.replaceInformationControl(TextViewerHoverManager.java:311)
+	at org.eclipse.jface.text.AbstractHoverInformationControlManager$Closer.lambda$1(AbstractHoverInformationControlManager.java:296)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4102)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.debug.ui 4 120 2019-04-23 14:49:51.699
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:271)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:98)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:737)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2019-04-23 14:49:52.582
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.closeStreams(ProcessConsole.java:406)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.handleDebugEvents(ProcessConsole.java:480)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2019-04-23 14:49:52.582
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.closeStreams(ProcessConsole.java:406)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.handleDebugEvents(ProcessConsole.java:480)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1137)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1171)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:444)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.ui 4 120 2019-04-23 15:38:42.377
+!MESSAGE Error logged from Debug UI: 
+!STACK 0
+java.io.IOException: Input Stream Closed
+	at org.eclipse.ui.console.IOConsoleInputStream.available(IOConsoleInputStream.java:271)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:98)
+	at org.eclipse.ui.console.IOConsoleInputStream.read(IOConsoleInputStream.java:123)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole$InputReadJob.run(ProcessConsole.java:737)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui.console 4 2 2019-04-23 15:38:42.383
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.console".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.closeStreams(ProcessConsole.java:406)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.dispose(ProcessConsole.java:394)
+	at org.eclipse.ui.console.AbstractConsole.destroy(AbstractConsole.java:267)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesRemoved(AbstractConsole.java:77)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:178)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:154)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:137)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:248)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:431)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:871)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:864)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1019)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:362)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:644)
+	at org.eclipse.osgi.container.Module.stop(Module.java:506)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1825)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1744)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:195)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:644)
+	at org.eclipse.osgi.container.Module.stop(Module.java:506)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:213)
+	at java.lang.Thread.run(Thread.java:748)
+
+!ENTRY org.eclipse.ui.console 4 120 2019-04-23 15:38:42.384
+!MESSAGE An exception occurred during console notification
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.closeStreams(ProcessConsole.java:406)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsole.dispose(ProcessConsole.java:394)
+	at org.eclipse.ui.console.AbstractConsole.destroy(AbstractConsole.java:267)
+	at org.eclipse.ui.console.AbstractConsole$Lifecycle.consolesRemoved(AbstractConsole.java:77)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.run(ConsoleManager.java:157)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.console.ConsoleManager$ConsoleNotifier.notify(ConsoleManager.java:178)
+	at org.eclipse.ui.internal.console.ConsoleManager.fireUpdate(ConsoleManager.java:262)
+	at org.eclipse.ui.internal.console.ConsoleManager.removeConsoles(ConsoleManager.java:244)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeProcess(ProcessConsoleManager.java:154)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.removeLaunch(ProcessConsoleManager.java:137)
+	at org.eclipse.debug.internal.ui.views.console.ProcessConsoleManager.shutdown(ProcessConsoleManager.java:248)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.stop(DebugUIPlugin.java:431)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:871)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$4.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.stop(BundleContextImpl.java:864)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.stopWorker0(EquinoxBundle.java:1019)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.stopWorker(EquinoxBundle.java:362)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:644)
+	at org.eclipse.osgi.container.Module.stop(Module.java:506)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.decStartLevel(ModuleContainer.java:1825)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1744)
+	at org.eclipse.osgi.container.SystemModule.stopWorker(SystemModule.java:275)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule.stopWorker(EquinoxBundle.java:195)
+	at org.eclipse.osgi.container.Module.doStop(Module.java:644)
+	at org.eclipse.osgi.container.Module.stop(Module.java:506)
+	at org.eclipse.osgi.container.SystemModule.stop(SystemModule.java:207)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$SystemBundle$EquinoxSystemModule$1.run(EquinoxBundle.java:213)
+	at java.lang.Thread.run(Thread.java:748)
+!SESSION 2019-04-24 09:58:12.392 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-24 09:58:16.472
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-24 09:58:16.517
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-28 18:48:45.645 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-28 18:48:49.811
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-28 18:48:49.850
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-29 14:16:07.827 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-29 14:16:11.773
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-29 14:16:11.809
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-04-30 10:12:25.160 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-30 10:12:29.258
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-30 10:12:29.300
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-02 11:42:50.284 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-02 11:42:54.237
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-02 11:42:54.279
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-06 19:58:06.973 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-06 19:58:11.088
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-06 19:58:11.125
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-08 10:31:05.523 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-08 10:31:09.783
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-08 10:31:09.830
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-10 07:28:55.747 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-10 07:29:00.631
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-10 07:29:00.675
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-15 10:33:52.817 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-15 10:33:56.863
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-15 10:33:56.901
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-05-15 10:36:55.191 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/abelmarin/Documents/DataStructures/workspace/ -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-15 10:36:59.154
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-15 10:37:00.532
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-15 10:37:01.938
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:08.313
+!MESSAGE CodeMix Engine needs to be installed; new installation
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:14.548
+!MESSAGE Initializing CodeMix Engine's settings file at /Users/abelmarin/Documents/DataStructures/workspace/.metadata/codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:14.554
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-15 10:37:18.002
+!MESSAGE Removing CodeMix editor for diff
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-15 10:37:18.006
+!MESSAGE Removing CodeMix editor for git-rebase
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-15 10:37:18.007
+!MESSAGE Removing CodeMix editor for git-commit
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:19.995
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/codemix.python.0.9.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:20.049
+!MESSAGE Installing codemix.python.0.9.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:20.207
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/christian-kohler.path-intellisense.1.4.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:20.245
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/ms-python.python.2019.3.6352.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:20.246
+!MESSAGE Installing christian-kohler.path-intellisense.1.4.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:20.917
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/formulahendry.code-runner.0.9.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:20.917
+!MESSAGE Installing ms-python.python.2019.3.6352.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:22.303
+!MESSAGE Installing formulahendry.code-runner.0.9.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:23.563
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/codemix.web.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:23.586
+!MESSAGE Installing codemix.web.0.9.4.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:23.653
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/msjsdiag.debugger-for-chrome.4.11.3.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:23.905
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/dbaeumer.vscode-eslint.1.8.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:23.907
+!MESSAGE Installing msjsdiag.debugger-for-chrome.4.11.3.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:23.946
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/formulahendry.auto-close-tag.0.5.6.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.024
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/mkaufman.HTMLHint.0.6.0.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.295
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/xabikos.JavaScriptSnippets.1.7.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.307
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/formulahendry.auto-rename-tag.0.0.15.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.333
+!MESSAGE Downloading http://downloads.genuitec.com/downloads/codemix/extensions/bradgashler.htmltagwrap.0.0.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.630
+!MESSAGE Installing dbaeumer.vscode-eslint.1.8.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.749
+!MESSAGE Installing formulahendry.auto-close-tag.0.5.6.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:24.895
+!MESSAGE Installing mkaufman.HTMLHint.0.6.0.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:29.083
+!MESSAGE Installing xabikos.JavaScriptSnippets.1.7.2.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:29.186
+!MESSAGE Installing formulahendry.auto-rename-tag.0.0.15.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:29.285
+!MESSAGE Installing bradgashler.htmltagwrap.0.0.7.vsix
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-15 10:37:32.195
+!MESSAGE The CodeMix Engine is being restarted to pick up latest extension changes
+
+!ENTRY org.eclipse.jface 2 0 2019-05-15 10:38:45.172
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-05-15 10:38:45.172
+!MESSAGE A conflict occurred for COMMAND+W:
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.cocoa.closeDialog,Close Dialog,
+		Closes the active Dialog,
+		Category(org.eclipse.ui.category.window,Window,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11a11930,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialog,,,system)
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Close,
+		Close the active editor,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3e1c58c9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.genuitec.eclipse.code.evergreen 2 0 2019-05-20 02:26:29.796
+!MESSAGE Failed to obtain CodeMix manifest
+
+!ENTRY com.genuitec.eclipse.code.evergreen 4 0 2019-05-20 02:26:29.911
+!MESSAGE Reason: com.genuitec.eclipse.code.core.common.GenuitecCoreException : www.genuitec.com
+
+!ENTRY com.genuitec.eclipse.code.evergreen 2 0 2019-05-20 10:44:57.363
+!MESSAGE Failed to obtain CodeMix manifest
+
+!ENTRY com.genuitec.eclipse.code.evergreen 4 0 2019-05-20 10:44:57.374
+!MESSAGE Reason: com.genuitec.eclipse.code.core.common.GenuitecCoreException : www.genuitec.com
+!SESSION 2019-05-21 12:32:28.901 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-21 12:32:32.990
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-21 12:32:34.522
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-21 12:32:36.596
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-21 12:32:44.574
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.eclipse.ui 4 0 2019-05-21 15:29:58.948
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:810)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:596)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:456)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4102)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3769)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-05-22 10:10:51.676 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-22 10:10:54.087
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-22 10:10:55.597
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-22 10:10:57.605
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-22 10:11:04.446
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-05-22 10:35:07.094 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-22 10:35:09.266
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-22 10:35:10.618
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-22 10:35:12.441
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-22 10:35:18.252
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-05-25 10:56:15.193 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-25 10:56:17.918
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-25 10:56:19.545
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-25 10:56:21.700
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-25 10:56:29.221
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-05-27 22:36:06.735 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-27 22:36:09.403
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-27 22:36:10.979
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-27 22:36:13.085
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-27 22:36:20.258
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-05-28 11:28:58.042 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/abelmarin/Documents/DataStructures/workspace/ -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-28 11:29:01.975
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-28 11:29:03.543
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-28 11:29:05.053
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-28 11:29:11.299
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-05-28 12:33:06.820 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-28 12:33:09.454
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-28 12:33:11.071
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-28 12:33:13.230
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-28 12:33:19.554
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-05-29 16:44:58.090 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-05-29 16:45:00.723
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-05-29 16:45:02.366
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-05-29 16:45:04.629
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-05-29 16:45:12.341
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.evergreen 2 0 2019-05-31 07:15:02.929
+!MESSAGE Failed to obtain CodeMix manifest
+
+!ENTRY com.genuitec.eclipse.code.evergreen 4 0 2019-05-31 07:15:02.939
+!MESSAGE Reason: com.genuitec.eclipse.code.core.common.GenuitecCoreException : www.genuitec.com
+
+!ENTRY com.genuitec.eclipse.code.evergreen 2 0 2019-06-01 09:01:52.522
+!MESSAGE Failed to obtain CodeMix manifest
+
+!ENTRY com.genuitec.eclipse.code.evergreen 4 0 2019-06-01 09:01:52.524
+!MESSAGE Reason: com.genuitec.eclipse.code.core.common.GenuitecCoreException : www.genuitec.com
+
+!ENTRY com.genuitec.eclipse.code.evergreen 2 0 2019-06-02 18:36:53.170
+!MESSAGE Failed to obtain CodeMix manifest
+
+!ENTRY com.genuitec.eclipse.code.evergreen 4 0 2019-06-02 18:36:53.171
+!MESSAGE Reason: com.genuitec.eclipse.code.core.common.GenuitecCoreException : www.genuitec.com
+!SESSION 2019-06-02 23:56:26.237 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-06-02 23:56:28.928
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-02 23:56:30.529
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-06-02 23:56:32.674
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-06-02 23:56:40.123
+!MESSAGE CodeMix Engine engine has been started
+!SESSION 2019-06-03 19:26:19.327 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -data file:/Users/abelmarin/Documents/DataStructures/workspace/ -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-06-03 19:26:23.542
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-03 19:26:25.008
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-06-03 19:26:26.562
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-06-03 19:26:32.823
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.core 2 0 2019-06-03 19:27:06.114
+!MESSAGE The CodeMix Engine did not trigger a Ready event in a reasonable amount of time; attempting extensions retrieval.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-06-03 19:27:06.188
+!MESSAGE The CodeMix Engine was able to receive extensions, continuing with initialization.
+!SESSION 2019-06-03 19:32:48.363 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-06-03 19:32:50.755
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-03 19:32:52.181
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-06-03 19:32:54.865
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-06-03 19:33:01.972
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY org.eclipse.ui 4 0 2019-06-04 18:53:41.127
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: String index out of range: 132249
+	at java.lang.String.charAt(String.java:658)
+	at org.eclipse.swt.custom.StyledText.getOffsetAtPoint(StyledText.java:4547)
+	at org.eclipse.swt.custom.StyledText.getOffsetAtPoint(StyledText.java:4528)
+	at org.eclipse.swt.custom.StyledText.doMouseLocationChange(StyledText.java:2838)
+	at org.eclipse.swt.custom.StyledText.handleMouseDown(StyledText.java:6162)
+	at org.eclipse.swt.custom.StyledText.lambda$1(StyledText.java:5789)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4150)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-06-11 19:47:15.837 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_202
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/abelmarin/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-06-11 19:47:18.526
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-06-11 19:47:20.138
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-06-11 19:47:22.326
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-06-11 19:47:30.058
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.core 2 0 2019-06-11 19:48:04.314
+!MESSAGE The CodeMix Engine did not trigger a Ready event in a reasonable amount of time; attempting extensions retrieval.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-06-11 19:48:04.396
+!MESSAGE The CodeMix Engine was able to receive extensions, continuing with initialization.

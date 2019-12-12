@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #6 | Abel Marin</title>
+    <link rel="stylesheet" href="a6_abelmarin.css">
+</head>
+<body>
+    <header>
+        <h1 class="format-title">Web Calculator</h1>
+    </header>
+    
+    <main>
+        <form>
+            <label>Type In Three Numbers: </label>
+            <input type="text" id="txtNumber1" maxlength="3">
+            <input type="text" id="txtNumber2" maxlength="3">  
+            <input type="text" id="txtNumber3" maxlength="3">
+
+            <p><button type="button" id="btnAddition" 
+                    onclick="addTheNumbers()">Add the Numbers</button>
+                <button type="button" id="btnMultiplication" 
+                    onclick="multiplyTheNumbers()">Multiply the Numbers</button></p>
+        </form>
+
+        <h2>Addition of Numbers: </h2>
+        <div id="additionOfNumbersResults">
+        </div> <!-- End of Addition Results -->
+        
+        <h2>Multiplication of Numbers: </h2>
+        <div id="multiplicationOfNumbersResults">
+        </div> <!-- End of Multiplication Results -->
+    </main>
+
+    <script>
+        function addTheNumbers () {
+            var number1, number2, number3, addResult, addFinalResult;
+
+            number1 = document.getElementById("txtNumber1").value;
+            number2 = document.getElementById("txtNumber2").value;
+            number3 = document.getElementById("txtNumber3").value;
+
+            number1 = parseFloat(number1);
+            number2 = parseFloat(number2);
+            number3 = parseFloat(number3);
+
+            addResult = number1 + number2 + number3;
+
+            // Concatinates the sum with words which indicate which numbers
+            // were added together.
+            addFinalResult = "The sum of " + number1 + ", " + number2 +
+                            ", and " + number3 + " is " + addResult + ".";
+
+            document.getElementById("additionOfNumbersResults").innerHTML = addFinalResult;
+        }
+
+        function multiplyTheNumbers () {
+            var number1, number2, number3, multiplyResult, multiplyFinalResult;
+
+            number1 = document.getElementById("txtNumber1").value;
+            number2 = document.getElementById("txtNumber2").value;
+            number3 = document.getElementById("txtNumber3").value;
+
+            multiplyResult = number1 * number2 * number3;
+
+            // Concatinates the product with words which indicate which numbers
+            // were multiplied together.
+            multiplyFinalResult = "The product of " + number1 + ", " + number2 +
+                            ", and " + number3 + " is " + multiplyResult + ".";
+
+
+            document.getElementById("multiplicationOfNumbersResults").innerHTML = multiplyFinalResult;
+        }
+    </script>
+    <!-- 
+        Question #1: It was necessary to use the parseFloat function since
+        when a value is retieved from a form it is automatically a string. 
+        Therefore in order to run mathamatical operations on it we need to convert
+        it into a number.
+        Question #2: I used the parseFloat function since the page does not specify
+        what type of numbers are being used. Therefore I used parseFloat in order to
+        account for ints as well as floats.
+        Question #3: If you want your page to be visible you should not submit a ZIP
+        file because what you want the user to view is the html files. Also, web servers
+        don't know how to work with ZIP files.
+     -->
+</body>
+</html>

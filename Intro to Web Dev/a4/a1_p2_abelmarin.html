@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #4 | Abel Marin</title>
+    <style>
+        img {
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Assignment #4: Second Page</h1>
+        <img src="images/calculator.jpg" alt="Calculator">
+    </header>
+
+    <form id="gallonsToLiters">
+        <input  type="button" 
+                id="btnGallonsToLiters"
+                value="What is 5 gallons in liters?"
+                onclick="gallonsToLiters();">
+    </form>
+
+    <section>
+        <h2>Why You Should Use Semantic Tags:</h2>
+        <ol>
+            <li>Improves accessibilty for disabled users who use screen readers</li>
+            <li>Helps segment off code for easier reading in the future</li>
+            <li>Makes it easier to do CSS stylings on content</li>
+            <li>Considered best practice</li>
+        </ol>
+    </section>
+    
+    <script>
+        function gallonsToLiters() {
+            alert("18.9 gallons");
+        }
+    </script>
+</body>
+</html>

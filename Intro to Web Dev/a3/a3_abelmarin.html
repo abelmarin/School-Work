@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #3 | Abel Marin</title>
+    <link rel="stylesheet" href="a3_abelmarin.css">
+</head>
+<body>
+    <h1>Cathy's Crazy Cakes</h1>
+
+    <h3>Build Your Own Cake</h3>
+    
+    <form id="cakeOrder">
+
+        <label for="selCakeFlavor">Choose a Flavor: </label>
+        <select id="selCakeFlavor">
+            <option value="choc">Chocolate</option>
+            <option value="van">Vanilla</option>
+            <option value="straw">Strawberry</option>
+        </select>
+
+        <p><label>Choose a Size: </label></p>
+        <p>
+            <label for="radSmall">Small</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sizeCake" id="radSmall">
+        </p>
+        <p>
+            <label for="radMedium">Medium</label>&nbsp;
+            <input type="radio" name="sizeCake" id="radMedium">
+        </p>
+        <p>
+            <label for="radLarge">Large</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="sizeCake" id="radLarge" checked="checked">
+        </p>
+        
+        <p>
+            <label for="chkMailListCheck">Would you like to be added to the mailing list?</label>
+            <input type="checkbox" id="chkMailListCheck">
+        </p>
+
+        <p>
+            <label for="txtMailList">Enter Your Email:</label>
+            <input type="text" id="txtMailList">
+        </p>
+
+        <p><input type="button" id="btnOrderCake" value="Order My Cake!"></p>
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="vote_check_abelmarin.css">
+  <title>Vote Checker</title>
+  <style>
+    .form-style-classic { 
+      width:300px; border:solid 2px #99ccff; background-color:#ffcc99; padding:10px;
+    }
+    .results-output { color:#0000ff;}
+  </style>
+</head>
+<body>
+    <h2 class="style-header">Vote Checker</h2>
+
+  <form id="voterInfo"  class="form-style-classic">
+   <p><label for="txtBirthYear">What year were you born?</label>
+     <input type="text" id="txtBirthYear" size="4" /></p>
+
+   <p><label for="selRegistered">Are you registered to vote?</label><br>
+    (Enter 'yes' or 'no'):
+    <select id="selRegistered">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select></p>
+
+   <p><label for="selFelon">Are you a convicted felon?</label><br>
+    (Enter 'yes' or 'no'): 
+    <select id="selFelon">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select></p>
+
+    <p><label for="selCitizen">Are you a convicted felon?</label><br>
+    (Enter 'yes' or 'no'): 
+    <select id="selCitizen">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+    </select></p>
+
+   <p>*** 
+     <button type="button" onclick="checkVoterEligibility()" style="background-color:#ffff99;">
+       Can I Vote?</button>
+      ***</p>
+  </form>
+  <div id="voteResults" class="results-output"></div><!-- end of voteResults div -->
+<script>
+  function checkVoterEligibility() {
+    var birthYear, isFelon, isRegistered, isCitizen, age, date;
+
+    birthYear = document.getElementById('txtBirthYear').value;
+    birthYear = parseInt(birthYear);
+    date = new Date();
+    age = date.getFullYear() - birthYear;
+
+    isRegistered = document.getElementById('selRegistered').value;
+
+    isFelon = document.getElementById('selFelon').value;
+
+    isCitizen = document.getElementById('selCitizen').value;
+
+    if (age>=18 && isRegistered=="yes" && isFelon=="no" && isCitizen=="yes") {
+      resultsString = "Congratulations, you may vote!";
+    }
+    else {
+      resultsString = "I'm sorry, you are not qualified to vote.";
+    }
+    
+    document.getElementById("voteResults").innerHTML = resultsString;
+  }
+</script>
+</body>
+</html>

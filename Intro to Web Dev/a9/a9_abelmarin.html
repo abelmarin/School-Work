@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #9 | Abel Marin</title>
+    <link rel="stylesheet" href="a9_abelmarin.css">
+</head>
+<body class="format-page">
+    <header>
+        <h1>Create Your Coffee!</h1>
+    </header>
+
+    <main>
+        <form>
+            <p><label for="selSize">Choose a Size: </label>
+            <select id="selSize">
+                <option value="small">Small ($3.00)</option>
+                <option value="medium">Medium ($3.50)</option>
+                <option value="large">Large ($4.00)</option>
+            </select></p>
+
+            <p>Choose Milk: <br>
+            Skim:       <input type="radio" name="milk" id="radSkim"><br>
+            2%:         <input type="radio" name="milk" id="rad2%"><br>
+            Whole:      <input type="radio" name="milk" id="radWhole"><br>
+            Soy (+$1):  <input type="radio" name="milk" id="radSoy"></p>
+
+            <p>Type of Coffee?<br>
+            Regular: <input type="radio" name="coffeeType" id="radRegular" checked="checked">
+            Decaf: <input type="radio" name="coffeeType" id="radDecaf"></p>
+
+            <p>Extra Shot? (+$.75)<input type="checkbox" id="chkXtraShot"></p>
+
+            <button type="button" onclick="calculatePrice()">Confirm Your Order</button>
+        </form>
+
+        <div id="results">
+        </div> <!-- End of Results div -->
+    </main>
+
+    <script>
+        function calculatePrice() {
+            var size, milkType, coffeeType, extraShot, cost, outputString;
+
+            size = document.getElementById("selSize").value;
+
+            if (size == "small")
+                cost = 3;
+            else if (size == "medium") 
+                cost = 3.5;
+            else 
+                cost = 4;
+
+            if (document.getElementById("radSkim").checked)
+                milkType = "skim";
+            else if (document.getElementById("rad2%").checked)
+                milkType = "2%";
+            else if (document.getElementById("radWhole").checked)
+                milkType = "whole";
+            else if (document.getElementById("radSoy").checked) {
+                milkType = "soy";
+                cost += 1;
+            } else 
+                milkType = "no";
+
+            if (document.getElementById("radRegular").checked)
+                coffeeType = "regular";
+            else if (document.getElementById("radDecaf").checked)
+                coffeeType = "decaf";
+
+            if (document.getElementById("chkXtraShot").checked) {
+                cost += .75;
+                extraShot = true;
+            }
+
+            cost = cost.toFixed(2);
+            
+            if (extraShot)
+                outputString = "Order: " + size + " " + coffeeType +
+                    " coffee, with " + milkType + " milk and extra shot "
+                    + "<br>Total cost: $" + cost;
+            else 
+                outputString = "Order: " + size + " " + coffeeType +
+                    " coffee, with " + milkType + " milk "
+                    + "<br>Total cost: $" + cost;
+            
+            document.getElementById("results").innerHTML = outputString;
+        }
+    </script>
+</body>
+</html>

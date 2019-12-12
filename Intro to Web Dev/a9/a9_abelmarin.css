@@ -1,0 +1,22 @@
+.format-page {
+    width: 400px;
+    margin: auto;
+}
+
+div {
+    margin-top: 30px;
+    font-style: italic;
+    border: 2px solid #0000ff;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+header, form {
+    text-align: center;
+}
+
+.align-price {
+    text-align: center;
+}

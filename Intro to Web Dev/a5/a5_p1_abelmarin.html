@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #5 | Abel Marin</title>
+</head>
+<body>
+    <h1>Assignment #5</h1>
+    <h2>Abel Marin</h2>
+
+    <form id="convertDollarsToRealsForm">
+        <p><label for="txtAmountInDollars">Enter an amount in Dollars:</label>
+        <input type="text" id="txtAmountInDollars"></p>
+
+        <p><button type="button" onclick="convertDollarsToReals()">Convert to Reals</button></p>
+    </form>
+
+    <h3>Amount in Brazillian Reals:</h3>
+    <div id="results" style="font-family:Arial;">
+    </div> <!-- End of results div -->
+
+    <script>
+        function convertDollarsToReals() {
+            var amountDollars, amountReals;
+
+            amountDollars = document.getElementById("txtAmountInDollars").value;
+            amountReals = amountDollars * 4.13;
+
+            document.getElementById("results").innerHTML = amountReals;
+        }
+    </script>
+</body>
+</html>

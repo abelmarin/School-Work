@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #5 | Abel Marin</title>
+    <style>
+        .header-styles {
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .main-styles {
+            background-color: #d3d3d3;
+        }
+    </style>
+</head>
+<body>
+    <header class="header-styles">
+        <h1>Find the Area of a Circle!</h1>
+        <img src="unit-circle9_43217_md.gif" alt="Unit Circle" height="250px">
+    </header>
+
+    <main class="main-styles">
+        <form>
+            <p><label for="txtRadius">Type in a radius:</label>
+            <input type="text" id="txtRadius"></p>
+
+            <button type="button" onclick="areaOfCircle()">Calculate the Area</button>
+        </form>
+
+        <div id="results">
+        </div> <!-- End of results div -->
+    </main>
+
+    <script>
+        function areaOfCircle() {
+            var radius, area;
+
+            radius = document.getElementById("txtRadius").value;
+            area = 3.14 * radius * radius;
+
+            document.getElementById("results").innerHTML = area;
+        }
+    </script>
+</body>
+</html>

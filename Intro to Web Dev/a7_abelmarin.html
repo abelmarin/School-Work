@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment #7 | Abel Marin</title>
+</head>
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+    </header>
+
+    <main>
+        <form>
+            <p><label for="txtAmountInDollars">Enter an amount in US Dollars: </label>
+                <input type="text" id="txtAmountInDollars"></p>
+
+            <p><label for="selForeignCurrency">Pick the currency to convert to: </label>
+                <select id="selForeignCurrency">
+                    <option value="euro">Euros</option>
+                    <option value="canada dollars">Canadian Dollars</option>
+                    <option value="yuan">Chinese Yuan</option>
+                </select></p>
+
+                <button type="button" onclick="convertDollarsToForeign();">Convert</button>
+        </form>
+
+        <div id="results">
+        </div> <!-- End of Results div -->
+    </main>
+
+    <script>
+        function convertDollarsToForeign() {
+            var dollars, foreignMoney, convertedValue, formattedOutput;
+
+            dollars = document.getElementById("txtAmountInDollars").value;
+            dollars = parseFloat(dollars);
+
+            foreignMoney = document.getElementById("selForeignCurrency").value;
+
+            if (foreignMoney == "euro") {
+                convertedValue = dollars * 0.9;
+            }
+            if (foreignMoney == "canada dollars") {
+                convertedValue = dollars * 1.31;
+            }
+            if (foreignMoney == "yuan") {
+                convertedValue = dollars * 7.07;
+            }
+
+            dollars = dollars.toFixed(2);
+            convertedValue = convertedValue.toFixed(2);
+
+            formattedOutput = "<span style='color:#0000ff'>" + "<br>US Dollars: $" + dollars +
+                            "<br>Conversion Amount: " + convertedValue + 
+                            " " + foreignMoney + "</span>";
+
+            document.getElementById("results").innerHTML = formattedOutput;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+p john 8
+p mike 7
+p sara 9
+p jane 5
+f mike 7 jane 5
+f mike 7 sara 9
+f jane 5 john 8
+l jane 5
+l john 8
+u mike 7 jane 5
+l jane 5
+q mike 7 sara 9
+q sara 9 mike 7
+q sara 9 mike 23
+q sara 9 sara 9

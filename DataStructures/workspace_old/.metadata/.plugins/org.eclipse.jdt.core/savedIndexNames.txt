@@ -1,0 +1,24 @@
+INDEX VERSION 1.131+/Users/abelmarin/Documents/DataStructures/workspace/.metadata/.plugins/org.eclipse.jdt.core
+1678911132.index
+2431798634.index
+3527267553.index
+1759899416.index
+1749887992.index
+2615885593.index
+507175874.index
+1271342938.index
+3927932913.index
+1463348370.index
+2733169575.index
+1499691003.index
+889976284.index
+2786479495.index
+1837375373.index
+4205052707.index
+514936899.index
+906836282.index
+255977339.index
+3612311804.index
+842424134.index
+4018783660.index
+3113065497.index
