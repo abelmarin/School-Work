@@ -1,0 +1,25 @@
+Codeanywhere - Increase File Upload Max
+To increase the file upload size max from 8MB.
+
+(1) edit the wp-config.php
+Add the following lines of code at the end of the file and then save the File changes 
+(Menu option File > Save)
+
+@ini_set( 'upload_max_filesize' , '128M' );
+@ini_set( 'post_max_size', '128M');
+@ini_set( 'memory_limit', '256M' );
+
+
+(2) Edit the .htaccess file:
+Add the following lines to the bottom but before the #End WordPress comment bottom
+then save the File changes
+(Menu option File > Save)
+
+php_value upload_max_filesize 128M
+php_value post_max_size 128M
+php_value memory_limit 256M
+php_value max_execution_time 300
+php_value max_input_time 300
+
+
+

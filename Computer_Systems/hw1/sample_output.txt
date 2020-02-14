@@ -1,0 +1,20 @@
+The output for p1 will depend on the numbers you type.  If you type 2 3 you should
+see this
+
+p1
+type two ints 
+2 3
+2 3
+
+p2
+pow_xy 2 3 = 8
+
+p3
+32 F is 0 C
+10 C is 50 F
+
+p4
+0 2 4 6 8
+
+p5
+6 0 1 6 2 2 6 1 0 6

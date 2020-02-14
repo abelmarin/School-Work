@@ -50,63 +50,68 @@ for r in range(4):      # for every row r = 0, 1, 2, 3
 root.mainloop()
 '''
 
-from tkinter import Tk, Frame, Button
-# alternate version:
-from tkinter.messagebox import showinfo
-from time import strftime, localtime
+# from tkinter import Tk, Frame, Button
+# # alternate version:
+# from tkinter.messagebox import showinfo
+# from time import strftime, localtime
 
-class ClickIt(Frame):
+# class ClickIt(Frame):
 
-    def __init__(self, master):
-        Frame.__init__(self, master)
-        button = Button(self, text='Click it', padx=40, command=self.clicked)
+#     def __init__(self, master):
+#         Frame.__init__(self, master)
+#         button = Button(self, text='Click it', padx=40, command=self.clicked)
 
-        self.pack()
+#         self.pack()
 
-    def clicked():
-        'prints day and time info'
-        time = strftime('Day:  %d %b %Y\nTime: %H:%M:%S %p\n', localtime())
-        #print(time)
-        # alternate version:
-        showinfo(message = time)
+#     def clicked():
+#         'prints day and time info'
+#         time = strftime('Day:  %d %b %Y\nTime: %H:%M:%S %p\n', localtime())
+#         #print(time)
+#         # alternate version:
+#         showinfo(message = time)
 
-###
+# ###
 
-from tkinter import Tk, Button, Entry, Label, END, Frame
-from time import strptime, strftime
-from tkinter.messagebox import showinfo
+# from tkinter import Tk, Button, Entry, Label, END, Frame
+# from time import strptime, strftime
+# from tkinter.messagebox import showinfo
 
-class Day(Frame):
 
-    def __init__(self, master):
-        Frame.__init__(self, master)
-        # label
-        label = Label(self, text='Enter date')
-        label.grid(row=0, column=0)
 
-        # entry
-        self.dateEnt = Entry(self)
-        self.dateEnt.grid(row=0, column=1)
+# class Day(Frame):
 
-        #  Enter button
-        button = Button(self, text='Enter', padx=40, command=self.compute) 
-        button.grid(row=1, column=0)
+#     def __init__(self, master):
+#         Frame.__init__(self, master)
+#         # label
+#         label = Label(self, text='Enter date')
+#         label.grid(row=0, column=0)
 
-        # Clear button
-        button = Button(self, text='Clear', padx=40, command=self.clear) 
-        button.grid(row=1, column=1)
+#         # entry
+#         self.dateEnt = Entry(self)
+#         self.dateEnt.grid(row=0, column=1)
+
+#         #  Enter button
+#         button = Button(self, text='Enter', padx=40, command=self.compute) 
+#         button.grid(row=1, column=0)
+
+#         # Clear button
+#         button = Button(self, text='Clear', padx=40, command=self.clear) 
+#         button.grid(row=1, column=1)
         
-    def compute(self):
-        date = self.dateEnt.get()
-        weekday = strftime('%A', strptime(date, '%b %d, %Y'))
-        self.dateEnt.insert(0, weekday+' ')
+#     def compute(self):
+#         date = self.dateEnt.get()
+#         weekday = strftime('%A', strptime(date, '%b %d, %Y'))
+#         self.dateEnt.insert(0, weekday+' ')
         
 
-    def clear(self):
-        self.dateEnt.delete(0, END)
+#     def clear(self):
+#         self.dateEnt.delete(0, END)
+
+# root = Tk()
+# Day(root).mainloop()
 
 
-'''
+
 from tkinter import Tk, Text, BOTH
 
 def record(event):
@@ -121,13 +126,13 @@ text = Text(root,
             height=5)  # set height to 5 rows of characters
 
 # Bind a key press event with the event handling function record()
-text.bind('<KeyPress-d><Return>', record)
+text.bind('<KeyPress-Up>', record)
 
 # widget expands if the master does
 text.pack(expand=True, fill=BOTH)
 
 root.mainloop()
-'''
+
 '''
 from tkinter import Tk, Canvas
 

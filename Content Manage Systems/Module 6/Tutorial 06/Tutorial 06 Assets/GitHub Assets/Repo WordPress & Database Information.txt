@@ -1,0 +1,38 @@
+Repo WordPress & Database Information
+
+GitHub Account: mikehchase's GitHub Account
+
+
+Repo #1: it320winter2020
+
+Description - WordPress website Repo created to 
+make an IT320 Presentation on how to create a WordPress GitHub Repo 
+
+WordPress admin user account:
+Username: userIT320
+Password: IT320@Winter2020!
+
+phpMyAdmin login info:
+username: root
+Password: Winter2020
+
+PGP Encryption Passphrase: Winter2020 
+
+=====================
+
+Repo #2: it320tutorial05
+
+Description - WordPress website Repo created while running the Tutorial 05 demo 
+
+WordPress admin user accounts:
+Username: student
+Password: xxx123!!!
+
+Username: userIT320
+Password: IT320@Winter2020!
+
+phpMyAdmin login info:
+username: root
+Password: Winter2020
+
+PGP Encryption Passphrase: Winter2020 

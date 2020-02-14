@@ -1,0 +1,24 @@
+Test streql373
+bin bag = 0
+computer game = 0
+area area = 1
+are area = 0
+
+Test strcmp373
+bin bag = 8
+computer game = -4
+area area = 0
+are area = -97
+
+Test strcat373
+bin bag = binbag
+computer ' ' game = computer game
+bo re = bore
+
+Test strchr373
+abcbc b = bcbc
+abcbc c = cbc
+abcbc d = 0
+
+Test strncpy373
+comp systems = syst

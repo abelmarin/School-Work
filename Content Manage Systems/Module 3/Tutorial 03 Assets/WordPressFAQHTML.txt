@@ -1,0 +1,32 @@
+<h1>Q1: How do I donate games and games systems to you?</h1>
+A:We have a contact us form on the website. Fill it out and list the games and game systems and their condition. We will contact you and arrange the best method to send us your stuff
+<h1>Q2: Will I get a tax credit for game and game system donations?</h1>
+A: If we were a legit company yes. But we are actually a test case for IT 320 Introduction to CMS, so the answer is no.
+<h1>Q3: What charity do you support?</h1>
+A:Wildlife Rescue of Austin Texas:
+<a href="http://austinwildliferescue.org">http://www.austinwildliferescue.org/</a>
+<h1>Q4: Can I donate game system parts?</h1>
+A:No, we only accept working games and complete game systems for donation. You can list your game system parts on our customer resale page. You must be a registered user to post games, game systems, and parts on our website.
+<h1>Q5: Will you accept non-working games and game systems?</h1>
+No, unless the art is killer!
+<h1>Q6: What games do you sell?</h1>
+A:We accept the following games:
+Army of Two
+FIFA Soccer All Versions
+Donkey Kong - Any and all KONG
+Gears of War Judgement
+Metro Last Night
+Monster Hunter 1-5
+Resident Evil All Versions
+<h1>Q7: What game systems do you sell?</h1>
+A:We accept the following game systems:
+Microsoft Xbox One
+Microsoft Xbox 360
+Nintendo 3Ds XL
+Nintendo Wii
+Nintendo Wii U
+Sony Playstation 3
+Sony Playstation 4
+Sony Playstation Vita (Wi-Fi)
+<h1>Q8: What FAQ version is this anyway?</h1>
+A:5.0

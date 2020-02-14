@@ -3,18 +3,19 @@ from tkinter import Tk, Frame, Button
 from tkinter.messagebox import showinfo
 from time import strftime, localtime
 
+
 class ClickIt(Frame):
 
     def __init__(self, master):
-        Frame.__int__(self, master)
+        Frame.__init__(self, master)
         # create button labeled 'Click it' and event handler clicked()
-        button = Button(master,
+        b = Button(master,
                 text='Click it',    # text on top of button
-                command=clicked)    # button click event handler
+                command=self.clicked)    # button click event handler
 
-        button.pack()
+        b.pack()
 
-    def clicked():
+    def clicked(self):
         'prints day and time info'
         time = strftime('Day:  %d %b %Y\nTime: %H:%M:%S %p\n', localtime())
         #print(time)
@@ -33,8 +34,7 @@ class Day(Frame):
     def __init__(self, master):
         Frame.__init__(self, master)
         # label
-        label = Label(self, text='Enter date')
-        label.grid(row=0, column=0)
+        Label(self, text='Enter date').grid(row=0, column=0)
 
         # entry
         self.dateEnt = Entry(self)
@@ -106,6 +106,8 @@ class Draw(Frame):
         
         self.oldx, self.oldy = newx, newy    # new position becomes previous
 
+
+
 class App(Frame):
 
     def __init(self, master):
@@ -114,3 +116,7 @@ class App(Frame):
         d.pack(side=LEFT)
         p = Plotter(self)
         p.pack(side=RIGHT)
+
+
+root = Tk()
+Day(root).mainloop()

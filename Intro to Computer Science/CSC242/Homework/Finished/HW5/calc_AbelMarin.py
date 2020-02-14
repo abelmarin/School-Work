@@ -1,5 +1,5 @@
 from tkinter import Tk, Button, Frame, Entry, END, RIDGE, RAISED
-from math import sqrt, cos, sin, tan, e, pi, log2
+from math import *
 
 class Calc(Frame):
     'a simple calculator'
