@@ -1,0 +1,42 @@
+PROBLEMS FOR WEDNESDAY 2/19:
+-----------------------------
+
+Read 3.1-3.5 and make sure you understand:
+
+Functional dependencies
+Deciding whether sets of functional dependencies are equivalent
+Finding the closure of a set of attributes
+Superkeys, candidate keys, and prime attributes
+Boyce-Codd Normal Form
+
+1.
+
+For R(a,b,c):
+
+E = { c->a , a->b , b->c }
+
+F = { c->a , b->a , a->c }
+
+Are E and F equivalent?
+(That is, can every functional depenency in the set E 
+be derived from the set F, and vice versa?) 
+
+Add a->b to the set F -- does the answer change?
+
+
+2.
+
+For R(A,B,C,D):
+
+F = { A->C , BC->D , C->A , D->B }
+
+Find as many superkeys of R as you can.
+
+Out of those superkeys, which ones are candidate keys?
+
+Which attributes are prime attributes?
+
+Is F in BCNF?
+(That is, does every functional dependency have a
+superkey as its determinant?)
+

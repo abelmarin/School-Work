@@ -1,0 +1,29 @@
+PRODUCT RECORD CONTENT
+
+Name: AC-DC Adapter Plug
+Description: A plug to switch form AAC to DC
+Part Number: AQ123-789
+Cost: 45.78
+Box size: Large
+Thumbnail Image: AC-DC-Plug.png
+
+Name: GE Polarized Grounding
+Description: GE Polarized Grounding Adapter 2 Pack, Turn 2-Prong Outlets to 3-Prong Outlets, Outlet Adapter, Easy to Install, Indoor Only, UL Listed, Orange
+Part Number: 14404
+Cost: 3.43
+Box size: small
+Thumbnail Image: GE Polarized Grounding.png
+
+Name: AC Works
+Description: AC WORKS 15 Amp Household Plug to 20 Amp T-Blade Female Adapter
+Part Number: XH515520
+Cost: 9.00
+Box size: X-Small
+Thumbnail Image: AC Works.png
+
+Name: 8 in 1 Universal 2Pin
+Description: 8in1 Universal 2Pin AC DC Power Adapter Plug Charger Tips For Notebook Laptop C
+Part Number: XL8I1000567-3
+Cost: 3.51
+Box size: X-Large
+Thumbnail Image: 8 in 1 Universal 2Pin.png

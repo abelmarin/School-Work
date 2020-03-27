@@ -1,0 +1,6 @@
+my_first_d8cm:
+   path: /d8cm
+   defaults:
+      _controller: Drupal\my_first_d8cm\Controller\d8cmController::d8cm
+   requirements:
+      _permission: 'acccess content'

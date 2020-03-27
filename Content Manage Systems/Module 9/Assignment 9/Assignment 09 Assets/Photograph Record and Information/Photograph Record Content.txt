@@ -1,0 +1,79 @@
+PHOTOGRAPH RECORD CONTENT
+
+Title: Avocado Taste Great
+Record Number: 1
+Image File Name: Pic-Avocado-Tastes-Great.png
+Description: A squirrel eating avocado
+Thumbnail image: Pic-Avocado-Tastes-Great.png (as Thumbnail)
+ID Number: S1472
+Image Type: Pets
+Cost: 150.00 
+Image Size: Large (Taxonomy+Vocabulary)
+Direction: North (Taxonomy+Vocabulary)
+Season: Winter (Taxonomy+Vocabulary)
+Picture: Pic-Avocado-Tastes-Great.png - As Medium Sized Image
+
+Title: The Buck
+Record Number: 2
+Image File Name: Pic-Buck00567.png
+Description: A buck next to a lake
+Thumbnail image: Pic-Buck00567.png - As thumbnail image
+ID Number: B45671
+Image Type: Wildlife
+Cost: 100.00
+Image Size: Medium
+Direction: North
+Season: Summer
+Picture: Pic-Buck00567.png - As Medium Sized Image
+
+Title: The Chickadee
+Record Number: 3
+File Name: Pic-Chickadee-Bird-8947.png
+Description: A buck next to a lake
+Thumbnail image: Pic-Chickadee-Bird-8947.png - as thumbnail image
+ID Number: B45671
+Image Type: Wildlife
+Cost: 100.00
+Image Size: Medium
+Direction: East
+Season: Fall
+Picture: Pic-Chickadee-Bird-8947.png - as Medium sized image
+
+Title: The Deer
+Record Number: 4
+File Name: Pic-Deer001.png
+Description: A dear in the forest
+Thumbnail image: Pic-Deer001.png - as thumbnail image
+ID Number: B45671
+Image Type: Wildlife
+Cost: 150.00
+Image Size: Large
+Direction: West
+Season: Fall
+Picture: Pic-Deer001.png - as Medium sized image
+
+Title: The Portland Fish Market
+Record Number: 5
+File Name: Pic-Harbor-Fish-Market-Portland-Maine.png
+Description: A dear in the forest
+Thumbnail image: Pic-Harbor-Fish-Market-Portland-Maine.png - as thumbnail
+ID Number: B45671
+Image Type: Commercial
+Cost: 150.00
+Image Size: Large
+Direction: North
+Season: Summer
+Picture: Pic-Harbor-Fish-Market-Portland-Maine.png - as medium sized image
+
+Title: Loon on a nest
+Record Number: 6
+File Name: Pic-Loon-on-nest-001.png
+Description: A loon on her nest
+Thumbnail image: Pic-Loon-on-nest-001.png - as thumbnail image
+ID Number: L788345
+Image Type: Wildlife
+Cost: 250.00
+Image Size: X-Large
+Direction: East
+Season: Summer
+Picture: Pic-Loon-on-nest-001.png - as medium image

@@ -1,0 +1,75 @@
+
+Six Things Your Team Wants from You as Their Product Owner
+By Mike Cohn 0 Comments 
+
+I work with a lot of teams and talk to even more. Most understand and appreciate the challenges of being a great product owner. Here are six things teams have told me they want from you as their product owner.
+1. Your Time
+
+Teams are often under tremendous pressure to go quickly. That’s fine, and team members generally accept it as the state of the world these days.
+
+But when you expect your team to go quickly, you need to be available to team members when they have questions.
+
+It’s unfair for a product owner to expect the team to go fast but not to make time for the team.
+2. Your Trust
+
+Your team wants you to trust them. When team members ask to be able to do something, they want you trust that they are doing so for the good of the product.
+
+They shouldn’t mind if you ask a few questions about whatever it is they want, but any questions you ask should also be for the good of the product.
+
+As an example, I remember my 16-year-old daughter asking if she could go to a party one weekend. She’d asked because she would be out two hours past her normal curfew.
+
+I asked whose party the house would be at. All her friends were good kids, so I wasn’t going to say no. But I wanted to know whose house just for my own peace of mind.
+
+A product owner asking questions about work the team wants to do should be similar.
+
+For example, suppose team members want to clean up some old code. You, as product owner, might ask questions like:
+
+    What would happen if we don’t ever clean up that code?
+    What would happen if we put it off for two sprints?
+
+It’s possible that answers to these questions lead a product owner to tell the team not to perform that code clean up. But it should be more likely that the product owner trusts the team and is just assessing whether it’s better to do the code cleanup now or in a few weeks.
+3. To Understand Your Vision
+
+The best product owners have a vision for their product and can get the team excited about the future that vision will create.
+
+This doesn’t need to be a Steve Jobs-style vision of an entire new industry. But, it’s useful to have a vision three to six months into the future. Anything longer than a single sprint is good.
+
+A vision can (and should) change over time. Jeff Bezos of Amazon certainly seems to be a great visionary. But not even he could have anticipated all that Amazon has become. If he had, he certainly wouldn’t have given Amazon its initial slogan of “Earth’s biggest bookstore.”
+4. To Be Included
+
+Product owners are great at understanding that users and customers are stakeholders in a product or project’s success. They’re also good at recognizing business stakeholders within an organization.
+
+However, too many product owners don’t recognize the importance of viewing development team members as stakeholders.
+
+Your development team members have a very vested interest in the success of the product. This means they must be included whenever you would include business, user and customer stakeholders.
+
+A common omission is when product owners don’t ask the development team members for their opinion on priorities. Asking them doesn’t mean their priority recommendations win any more than asking businesspeople for their priorities has them automatically win. So, you don’t need to prioritize precisely what team members ask for, but you should consider it among all other stakeholder requests.
+5. To Be Allowed to Do High-Quality Work
+
+No one enjoys releasing work that doesn’t represent their best effort. I can’t imagine standing over Van Gogh’s shoulder saying, “Paint faster. It’s good enough.” Yet teams hear this nearly daily.
+
+There will be times when products ship with known imperfections. There will be times a team needs to rush a feature doing a “good enough” version for now. And, believe me, your development team understands this.
+
+But those times need to be balanced with times when team members can do quality work.
+6. Time to Improve and Learn
+
+Technical skills go out of date quickly. New technologies are developed. Old technologies are improved, enhanced, or shown to be usable in new ways.
+
+Your team members know all this. It’s why they want time to improve their existing skills and learn new ones. Many team members also enjoy the challenge and excitement that comes with learning.
+
+Sure, learning new skills helps them stay relevant in the job market. And maybe they’ll use those newly developed skills to move on.
+
+But, that’s a risk worth taking.
+
+Wouldn’t you rather have the type of development team member who enjoys learning new things and is able to use that learning to build you the best possible product? It’s a win-win situation: team members do the hard work of learning something and you benefit from what they’ve learned.
+You Can Be a Great Product Owner
+
+Being a great product owner is hard. You have to spend time looking outward toward customers, users, competitors, trends in your industry and more. But you also have to spend time looking inward at the team, working with them, and answering their questions.
+
+If you do the six things listed here, that time you spend with the team will help them be the best possible team they can be for you.
+What Do You Think?
+
+What do you think is missing from my list? If you’re a team member, what more do you want from your product owner? If you’re a product owner, what did I miss that your team wants from you? Please share your thoughts in the comments below.
+
+
+

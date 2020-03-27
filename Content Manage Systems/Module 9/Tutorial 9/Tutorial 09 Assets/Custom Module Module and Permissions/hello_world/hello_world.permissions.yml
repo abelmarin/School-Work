@@ -1,0 +1,6 @@
+# In my_module.permissions.yml file.
+# https://benmarshall.me/drupal-8-module-permissions/
+access all views:
+  title: 'Hello World module settings'
+  description: 'A custom permission for hello world settings page.'
+  restrict access: FALSE

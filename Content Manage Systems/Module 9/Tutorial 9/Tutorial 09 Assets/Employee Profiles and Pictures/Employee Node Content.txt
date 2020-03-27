@@ -1,0 +1,47 @@
+EMPLOYEE RECORD CONTENT
+
+Name: Alice Smith
+Description:
+I am a freelance photographer specializing in music, product, event, TV, media, fine art, fashion, and street photography. 
+I handle all contracts with clients. As well as, shooting, editing, retouching all work as needed.
+Job Title: Freelance photographer
+Phone: 312-111-1111
+Eye Color: Blue (Taxonomy-Vocabulary-Term)
+Picture: AliceSmith.png
+
+Name: Jane Jones
+Description: 
+Freelance Photographer, Retoucher, Curator, Social Media, Production-Assistant 
+Job Title: Freelance photographer
+Phone: 312-222-2222
+Eye Color: Green (Taxonomy-Vocabulary-Term)
+Picture: JaneJones.png
+
+Name: Laura Nactham
+Description: 
+I have always been creative and it is my goal to pursue a position in which to use my strengths in art and communication. 
+Working for Chuck allows me to improve my knowledge of photography and post-production editing every day. 
+He is such a great teacher.
+Job Title: HR
+Phone: 312-333-3333
+Eye Color: Brown (Taxonomy-Vocabulary-Term)
+Picture: LauraNactham.png
+
+Name: Sue Chase
+Job title: Freelance photographer
+Description: 
+I'm a photographer from Makawao.
+I would really love working as an assistant, handling the light equipment and doing post-production.
+I do all the things most photographers hate doing, but I can also shoot as well.
+Job Title: Freelance photographer
+Phone: 312-444-4444
+Eye Color: Blue (Taxonomy-Vocabulary-Term)
+Picture: SueChase.png
+
+Name: Mr. Nuts
+Description:
+What can I say, I’m all about the nuts. :-)
+Job Title: Model and Spokesperson
+Phone: 312-555-5555
+Eye Color: Black (Taxonomy-Vocabulary-Term)
+Picture: MrNuts.png

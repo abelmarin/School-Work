@@ -1,0 +1,107 @@
+SOLUTIONS FOR WEDNESDAY 2/19:
+-----------------------------
+
+1.
+
+For R(a,b,c):
+
+E = { c->a , a->b , b->c }
+
+F = { c->a , b->a , a->c }
+
+Are E and F equivalent?
+(That is, can every functional depenency in the set E 
+be derived from the set F, and vice versa?) 
+
+---
+
+Can E derive every functional dependency in F?
+
+c->a? {c}+ = {c, a, b}, so c->a can be derived.
+b->a? {b}+ = {b, c, a}, so b->a can be derived.
+a->c? {a}+ = {a, b, c}, so a->c can be derived.
+
+Yes, E can derive everything in F.
+
+Can F derive every functional dependency in E?
+
+c->a? {c}+ = {c, a}, so c->a can be derived.
+a->b? {a}+ = {a, c}, so a->b cannot be derived!
+b->c? {b}+ = {b, a, c}, so b->c can be derived.
+
+No, there is something in E (a->b) that F cannot derive.
+
+Therefore E and F are not equivalent.
+
+---
+
+Add a->b to the set F -- does the answer change?
+
+---
+
+Yes, if a->b is added to F, then E and F are equivalent.
+
+---
+
+
+2.
+
+For R(A,B,C,D):
+
+F = { A->C , BC->D , C->A , D->B }
+
+Find as many superkeys of R as you can.
+
+---
+
+Superkeys:
+
+AB
+AD
+BC
+CD
+ABC
+ABD
+ACD
+BCD
+ABCD
+
+For each of these sets, the closure is ABCD.
+
+---
+
+Out of those superkeys, which ones are candidate keys?
+
+---
+
+Candidate keys:
+
+AB
+AD
+BC
+CD
+
+For each of these sets, the set is a superkey
+but no proper subset of it is a superkey.
+
+---
+
+Which attributes are prime attributes?
+
+---
+
+A, B, C, D -- every attribute is part of some candidate key.
+
+---
+
+Is R in BCNF?
+(That is, does every functional dependency have a
+superkey as its determinant?)
+
+---
+
+No. A->C , C->A , and D->B all have determinants that are
+_not_ superkeys, so R is not in BCNF.
+
+---
+

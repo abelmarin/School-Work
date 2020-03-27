@@ -1,0 +1,37 @@
+MEDIA RECORD STRUCTURE AND CONTENT
+
+Title: Avocado Taste Great
+Record Number: 1
+MediaFile Name: Pic-Avocado-Tastes-Great.png
+Description: A squirrel eating avocado
+Picture: Pic-Avocado-Tastes-Great.png
+ID Number: A1472
+
+Title: What your team wants
+Record Number: 2
+Media File Name: Doc-Text-Six+Things+Your+Team+Wants.txt
+Description: A documents on team needs and wants
+Picture: Pic-Buck00567.png
+ID Number: B45671
+
+Title: Spring frogs - Video from Middlefork Savanna 2015
+Record Number: 3
+Remote Media URL:https://www.youtube.com/watch?v=ix8A_qMrM7A
+Description: You tube video of spring frogs
+Picture: frog.png
+ID Number: C45671
+
+Title: Audio test
+Record Number: 4
+File Name: Audio-Test01.mp3
+Description: An audio test
+Picture: bunny.png
+ID Number: D45671
+
+Title: Loon on a nest
+Record Number: 5
+File Name: Pic-Loon-on-nest-001.png
+Description: A loon on her nest
+Picture: Pic-Loon-on-nest-001.png
+ID Number: E788345
+
