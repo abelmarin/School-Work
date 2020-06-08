@@ -1,0 +1,13 @@
+rawTotal,shippingMethod,destinationState
+-10,Standard,WA
+-10,Standard,IL
+-10,NextDay,WA
+-10,NextDay,IL
+25,Fast,WA
+25,Fast,IL
+100,Fast,WA
+100,Fast,IL
+25,Standard,BC
+25,NextDay,BC
+100,Standard,BC
+100,NextDay,BC

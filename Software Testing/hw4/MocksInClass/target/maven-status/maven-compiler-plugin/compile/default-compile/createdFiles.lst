@@ -1,0 +1,14 @@
+edu/depaul/mocks/Query.class
+edu/depaul/mocks/CalculationClient.class
+edu/depaul/mocks/Subtract.class
+edu/depaul/mocks/Multiply.class
+edu/depaul/mocks/Response.class
+edu/depaul/mocks/Divide.class
+edu/depaul/mocks/StatusType.class
+edu/depaul/mocks/SystemLogger.class
+edu/depaul/mocks/Logger.class
+edu/depaul/mocks/CalculationServer.class
+edu/depaul/mocks/CalculationException.class
+edu/depaul/mocks/CalculationApp.class
+edu/depaul/mocks/Add.class
+edu/depaul/mocks/Operation.class

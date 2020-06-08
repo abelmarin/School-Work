@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: edu.depaul.triangle.TriangleTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.153 s <<< FAILURE! - in edu.depaul.triangle.TriangleTest
+edu.depaul.triangle.TriangleTest.testNoNegativeNumbers  Time elapsed: 0.127 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Expected java.lang.IllegalArgumentException to be thrown, but nothing was thrown.
+	at edu.depaul.triangle.TriangleTest.testNoNegativeNumbers(TriangleTest.java:45)
+
+edu.depaul.triangle.TriangleTest.testIsosceles  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <ISOSCELES> but was: <SCALENE>
+	at edu.depaul.triangle.TriangleTest.testIsosceles(TriangleTest.java:29)
+

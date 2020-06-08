@@ -1,0 +1,9 @@
+rawTotal,shippingMethod,destinationState,expectedTotal
+25,Standard,IL,37.1
+25,Standard,WA,35
+25,NextDay,IL,53
+25,NextDay,WA,50
+100,Standard,IL,106
+100,Standard,WA,100
+100,NextDay,IL,132.5
+100,NextDay,WA,125
