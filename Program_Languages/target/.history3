@@ -1,0 +1,13 @@
+1611737614026:~testOnly fp2tests
+1611737772359:testOnly fp2tests
+1611737958229:tests
+1611737969360:test
+1611737979961:q
+1611737985233:quit
+1611737989720:exit
+1612045029958:~testOnly fp3tests
+1612045044192:exit
+1612820895425:1 + 2
+1612820909428:def allDistinct (xs : List[Int]) : Boolean = {\n    xs match {\n      case Nil                      => true\n      case y::ys if (member(y,ys))  => false\n      case y::ys                    => allDistinct(ys)\n    }\n  }
+1612820941682:console
+1612827545227:exit

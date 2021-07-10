@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' display-mode='raw'>
+    <pages>
+        <page name='Vehicles'/>
+        <page name='Value types vs. Reference types'/>
+        <page name='Rectangle and Square'/>
+        <page name='Rectangle with a Point (class)'/>
+        <page name='Rectangle with a Point (struct)'/>
+    </pages>
+</playground>

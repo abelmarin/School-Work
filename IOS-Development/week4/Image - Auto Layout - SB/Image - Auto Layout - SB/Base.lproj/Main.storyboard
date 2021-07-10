@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Image___Auto_Layout___SB" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="749" image="Lake Front" translatesAutoresizingMaskIntoConstraints="NO" id="6DL-v1-oS5">
+                                <rect key="frame" x="0.0" y="77" width="414" height="780"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SpO-gF-WVI">
+                                <rect key="frame" x="341" y="39" width="53" height="30"/>
+                                <state key="normal" title="Picasso"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GrN-7Z-yc2"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxK-yf-xeh">
+                                <rect key="frame" x="20" y="39" width="73" height="30"/>
+                                <state key="normal" title="Lake Front"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yHa-VD-ubB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jMY-yT-e8X">
+                                <rect key="frame" x="168.5" y="39" width="77" height="30"/>
+                                <state key="normal" title="Cloud Gate"/>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NM3-NK-Ysf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="jMY-yT-e8X" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1kB-7j-sPV"/>
+                            <constraint firstItem="dxK-yf-xeh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="39" id="MEa-zp-o8j"/>
+                            <constraint firstItem="SpO-gF-WVI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="39" id="Tj7-i3-C4T"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SpO-gF-WVI" secondAttribute="trailing" constant="20" id="W4Y-o8-TZC"/>
+                            <constraint firstItem="jMY-yT-e8X" firstAttribute="centerY" secondItem="dxK-yf-xeh" secondAttribute="centerY" id="Wqn-4r-zMs"/>
+                            <constraint firstItem="6DL-v1-oS5" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="b7d-Hd-6yz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6DL-v1-oS5" secondAttribute="bottom" constant="5" id="e7E-9E-NFR"/>
+                            <constraint firstItem="dxK-yf-xeh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="hSH-yS-Zlp"/>
+                            <constraint firstItem="6DL-v1-oS5" firstAttribute="top" secondItem="SpO-gF-WVI" secondAttribute="bottom" constant="8" id="phb-SD-uSL"/>
+                            <constraint firstItem="6DL-v1-oS5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="xhA-Il-6rV"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="6DL-v1-oS5" id="CV3-NA-y34"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Lake Front" width="360" height="240"/>
+    </resources>
+</document>
