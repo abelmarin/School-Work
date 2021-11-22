@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">HW2_abelmarin</string>
+    <string name="TextAboutTitle">Android Notes</string>
+    <string name="TextMyName">\u00A9 2021, Abel Marin</string>
+    <string name="TextVersionNumber">Version 1.0</string>
+    <string name="aboutmenuitem">aboutMenuItem</string>
+    <string name="addnotemenuitem">addNoteMenuItem</string>
+    <string name="saveMenuItem">Item</string>
+    <string name="file_name">Note.json</string>
+    <string name="encoding">UTF-8</string>
+    <string name="no_file">No JSON Product File Present</string>
+</resources>

@@ -1,0 +1,10 @@
+com/example/christopher/recycler/Employee.java
+ com.example.christopher.recycler.Employee
+com/example/christopher/recycler/MyViewHolder.java
+ com.example.christopher.recycler.MyViewHolder
+com/example/christopher/recycler/MainActivity.java
+ com.example.christopher.recycler.MainActivity
+com/example/christopher/recycler/BuildConfig.java
+ com.example.christopher.recycler.BuildConfig
+com/example/christopher/recycler/EmployeesAdapter.java
+ com.example.christopher.recycler.EmployeesAdapter

@@ -1,0 +1,8 @@
+com/example/christopher/activities/ActivityA.java
+ com.example.christopher.activities.ActivityA
+com/example/christopher/activities/BuildConfig.java
+ com.example.christopher.activities.BuildConfig
+com/example/christopher/activities/MainActivity.java
+ com.example.christopher.activities.MainActivity
+com/example/christopher/activities/ActivityB.java
+ com.example.christopher.activities.ActivityB

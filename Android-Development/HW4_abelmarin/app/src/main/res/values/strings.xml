@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Civil Advocacy</string>
+    <string name="aboutMenu">about</string>
+    <string name="searchMenuItem">Search</string>
+    <string name="civil_advocacy">Civil Advocacy</string>
+    <string name="data_provided_by">Data Provided By</string>
+    <string name="u00a9_2021_abel_marin">© 2021, Abel Marin</string>
+    <string name="version_1_0">Version 1.0</string>
+    <string name="google_civic_information_api"><a href="https://developers.google.com/civic-information/">Google Civic Information API</a></string>
+    <string name="locationText">Chicago</string>
+    <string name="addressText">Address:</string>
+    <string name="phoneText">Phone:</string>
+    <string name="emailText">Email:</string>
+    <string name="websiteText">Website:</string>
+</resources>

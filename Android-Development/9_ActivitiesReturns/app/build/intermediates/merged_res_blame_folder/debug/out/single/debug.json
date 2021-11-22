@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/layout_a_activity.xml.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/layout/a_activity.xml"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/layout_b_activity.xml.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/layout/b_activity.xml"
+    },
+    {
+        "merged": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/build/intermediates/merged_res/debug/layout_activity_main.xml.flat",
+        "source": "/Users/abelmarin/Documents/03_School/School/Android-Development/9_ActivitiesReturns/app/src/main/res/layout/activity_main.xml"
+    }
+]
